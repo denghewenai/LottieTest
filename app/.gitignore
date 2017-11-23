@@ -1,0 +1,6 @@
+/build/
+src/main/cpp/include/
+/src/androidTest/
+/src/test/
+/src/main/jniLibs/
+

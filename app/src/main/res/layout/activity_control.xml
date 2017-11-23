@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/control_lottieAnimationView"
+        android:layout_width="wrap_content"
+        android:layout_height="240dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/anim_progress_textView"
+        android:textSize="16sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="40dip"
+            android:layout_weight="1"
+            android:text="开始动画"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:id="@+id/start_button"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="40dip"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="结束动画"
+            android:background="@color/colorPrimary"
+            android:id="@+id/end_button"/>
+
+    </LinearLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/like_lottieAnimationView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:lottie_rawRes="@raw/beating_heart"
+        />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/check_lottieAnimationView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:lottie_fileName="checked_done.json"
+        />
+
+</LinearLayout>
