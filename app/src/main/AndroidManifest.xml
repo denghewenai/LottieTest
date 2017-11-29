@@ -21,6 +21,7 @@
         <activity android:name=".NetworkActivity"/>
         <activity android:name=".ControlActivity"/>
         <activity android:name=".LoadingActivity"/>
+        <activity android:name=".TextUseActivity"/>
     </application>
 
 </manifest>
